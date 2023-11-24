@@ -20,7 +20,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <style name="ModoOscuro"  parent = "Theme.AppCompat.DayNight.NoActionBar">
+    <style name="ModoOscuro" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/fondo_Oscuro</item>
         <item name="colorPrimaryVariant">@color/fondo_Oscuro</item>
@@ -51,10 +51,16 @@
 
     <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
         <item name="android:fontFamily">Times-New
-            -Roman</item>
+            -Roman
+        </item>
     </style>
 
     <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
         <item name="android:fontFamily">Times New Roman</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="Base.ModoOscuro" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 </resources>

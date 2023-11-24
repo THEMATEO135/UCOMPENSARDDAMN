@@ -33,4 +33,9 @@
             android:name="com.example.UCOMPENSARDDAMN.ui.home.LogedUserFragment"
             android:label="@string/menu_home"
             tools:layout="@layout/fragment_shop"/>
+    <activity
+            android:id="@+id/nav_mapas"
+            android:name="com.example.UCOMPENSARDDAMN.ui.GPS.MapsActivity"
+            android:label="Mapas"
+            tools:layout="@layout/activity_maps"/>
 </navigation>
